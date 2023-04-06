@@ -88,7 +88,7 @@ const LoginPage = () => {
         window.location.replace(
             process.env.REACT_APP_BASE_URL +
                 '/oauth2/authorize/google?redirect_uri=' +
-                process.env.REACT_APP_BASE_URL +
+                process.env.REACT_APP_URL_DOMAIN +
                 '/login',
         );
     };
